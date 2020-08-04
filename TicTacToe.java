@@ -94,6 +94,30 @@ public class TicTacToe {
         return false;
 
     }
+    
+    //Здесь пытался написать метод проверки выигрыша для любого поля, но не получилось, еще я дважды нажал на проект, и он декомпилировался, код поменялся и перестал запускаться
+    //private static boolean checkWinHor() {
+    //    for (int i = 0; i < field.length; i++) {
+    //        boolean result = true;
+    //        for (int j = 1; j < field.length && result; j++) {
+    //            result = field[i][j] == field[i][0];
+    //            if (result = true) return true;
+    //        }
+
+    //    }
+    //    return false;
+    //  }
+    // private static boolean checkWinVert() {
+    //    for (int i = 0; i < field.length; i++) {
+    //       boolean result = true;
+    //        for (int j = 1; j < field.length && result; j++) {
+    //            result = field[j][i] == field[0][i];
+    //            if (result = true) return true;
+    //        }
+    //    }
+    //    return false;
+    
+    
 
     public static void main(String[] args) {
         initField();
